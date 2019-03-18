@@ -1,12 +1,8 @@
 const RouteTypes = Object.freeze({
-  tenant: 'tenants',
-  outlet: 'outlets',
+  dashboard: 'dashboard',
+  signup: 'signup',
   users: 'users',
-  usersTenantAdmins: 'users/tenant-admins',
-  usersAnconAdmins: 'users/ancon-admins',
-  usersPassportHolders: 'users/passport-users',
-  licenses: 'licenses',
-  login: '/login'
+  login: 'login'
 });
 
 export default RouteTypes;
